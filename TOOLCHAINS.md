@@ -9,7 +9,7 @@ ThemisV2 có thể tải compiler/runtime độc lập để không phụ thuộ
 | CPython | macOS Intel | Python 3.12.13 | python-build-standalone |
 | CPython | macOS Apple Silicon | Python 3.12.13 | python-build-standalone |
 
-Các file nằm trong release [`toolchains-v1`](https://github.com/ducminh25/themis-v2-downloads/releases/tag/toolchains-v1). `toolchains-manifest.json` chứa URL tải, kích thước và SHA-256 mà ứng dụng kiểm tra trước khi cài.
+Các file nằm trong release [`toolchains-v1`](https://github.com/ducminh25/themis-v2/releases/tag/toolchains-v1). `toolchains-manifest.json` chứa URL tải, kích thước và SHA-256 mà ứng dụng kiểm tra trước khi cài.
 
 ## Nguồn và giấy phép
 
@@ -21,4 +21,3 @@ Repo này không thay đổi giấy phép của các thành phần bên thứ ba
 ## Tái tạo gói
 
 Workflow công khai [Build and Publish Toolchains](.github/workflows/toolchains.yml) tải các archive upstream bằng URL cố định, kiểm tra checksum nguồn, chạy thử executable, tạo manifest/checksum mới rồi tải lên GitHub Release.
-

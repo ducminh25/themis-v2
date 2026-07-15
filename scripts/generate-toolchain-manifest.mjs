@@ -58,7 +58,7 @@ function sha256(filePath) {
 const outputDirectory = path.resolve(process.argv[2] || "dist-toolchains");
 const releaseBaseUrl = (
   process.env.TOOLCHAIN_RELEASE_BASE_URL ||
-  "https://github.com/ducminh25/themis-v2-downloads/releases/download/toolchains-v1"
+  "https://github.com/ducminh25/themis-v2/releases/download/toolchains-v1"
 ).replace(/\/$/, "");
 
 const toolchains = catalog.map(({ filename, ...entry }) => {
@@ -98,4 +98,3 @@ const checksums = checksumFiles
 fs.writeFileSync(path.join(outputDirectory, "SHA256SUMS"), `${checksums}\n`);
 
 console.log(`Generated a manifest with ${toolchains.length} verified packages.`);
-

@@ -6,7 +6,7 @@ ThemisV2 là ứng dụng desktop chấm bài lập trình cục bộ dành cho 
 
 ## Tải xuống
 
-Mở trang [Releases](https://github.com/ducminh25/themis-v2-downloads/releases) và chọn phiên bản ThemisV2 mới nhất:
+Mở trang [Releases](https://github.com/ducminh25/themis-v2/releases) và chọn phiên bản ThemisV2 mới nhất:
 
 - Windows 10/11 x64: tải file `.msi`.
 - macOS 11 trở lên, Intel hoặc Apple Silicon: tải file universal `.dmg`.
@@ -26,7 +26,7 @@ Xem hướng dẫn chi tiết tại [INSTALL.md](INSTALL.md).
 
 ## GCC và Python được quản lý
 
-Ở lần mở đầu tiên, ThemisV2 cho phép dùng compiler/runtime đã cài trên máy hoặc tự tải gói độc lập. Các gói công khai nằm trong release [`toolchains-v1`](https://github.com/ducminh25/themis-v2-downloads/releases/tag/toolchains-v1).
+Ở lần mở đầu tiên, ThemisV2 cho phép dùng compiler/runtime đã cài trên máy hoặc tự tải gói độc lập. Các gói công khai nằm trong release [`toolchains-v1`](https://github.com/ducminh25/themis-v2/releases/tag/toolchains-v1).
 
 Ứng dụng kiểm tra manifest, kích thước và SHA-256 trước khi giải nén. Chi tiết nguồn, phiên bản và giấy phép: [TOOLCHAINS.md](TOOLCHAINS.md).
 
@@ -36,7 +36,6 @@ WSL2 + isolate hoặc Docker là tùy chọn. Khi không có sandbox sẵn sàng
 
 ## Hỗ trợ
 
-- Báo lỗi hoặc đề xuất tính năng: [GitHub Issues](https://github.com/ducminh25/themis-v2-downloads/issues).
+- Báo lỗi hoặc đề xuất tính năng: [GitHub Issues](https://github.com/ducminh25/themis-v2/issues).
 - Cách gửi báo cáo có ích: [SUPPORT.md](SUPPORT.md).
 - Lỗ hổng bảo mật: [SECURITY.md](SECURITY.md).
-

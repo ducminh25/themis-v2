@@ -1,6 +1,6 @@
 # Hướng dẫn cài đặt ThemisV2
 
-Chỉ tải ThemisV2 từ trang [Releases chính thức](https://github.com/ducminh25/themis-v2-downloads/releases).
+Chỉ tải ThemisV2 từ trang [Releases chính thức](https://github.com/ducminh25/themis-v2/releases).
 
 ## Windows 10/11 x64
 
@@ -49,4 +49,3 @@ Windows có gói GCC và Python được quản lý. macOS sử dụng Apple Cla
 - macOS: xoá ThemisV2 khỏi Applications.
 
 Dữ liệu toolchain được quản lý nằm trong thư mục dữ liệu ứng dụng của người dùng và có thể gỡ ngay trong màn hình quản lý Tools trước khi gỡ app.
-
