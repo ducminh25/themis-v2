@@ -1,6 +1,6 @@
 # Managed toolchains
 
-ThemisV2 có thể tải compiler/runtime độc lập để không phụ thuộc cấu hình toàn hệ thống.
+JudgeDesk có thể tải compiler/runtime độc lập để không phụ thuộc cấu hình toàn hệ thống.
 
 | Gói | Nền tảng | Phiên bản | Nguồn |
 | --- | --- | --- | --- |

@@ -8,7 +8,7 @@ Trước khi tạo issue:
 
 Một báo cáo hữu ích nên có:
 
-- Phiên bản ThemisV2.
+- Phiên bản JudgeDesk.
 - Hệ điều hành và kiến trúc CPU.
 - Các bước tái hiện theo thứ tự.
 - Kết quả mong đợi và kết quả thực tế.
